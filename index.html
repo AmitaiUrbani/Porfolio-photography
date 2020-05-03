@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Scripts -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+   <!-- Google font link -->
+   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+   <!-- Font Awsome Icons link -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+   <!-- Title -->
+    <title>Amitai Urbani Photography</title>
+   <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<!-- Body Element Starts -->
+<body>
+
+    <header>
+        
+        <!-- Top part -->
+        <div>
+
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </div>
+            
+            <!-- Navigation Bar -->
+            <nav>
+    
+                <ul>
+                    <li>  
+                        <a href="#Portfolio" target="_blanck"
+                        >Portfolio
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#Contact" target="_blanck">
+                            Contact
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#About" target="_blanck">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/urbani_captures/" target="_blanck">
+                            Instagram
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        
+        </div>
+
+        
+        <!-- icon example
+                <i class="fa fa-quora" aria-hidden="true"></i>
+        -->
+
+           
+    </header>
+
+    <!-- Slider -->
+        <div id="slide-wrap">
+            <section class="slider">
+                <ul class="slider1">
+                    <li><img src="img/slider/slider1.jpg" alt=""></li>
+                    <li><img src="img/slider/slider2.jpg" alt=""></li>
+                    <li><img src="img/slider/slider3.jpg" alt=""></li>
+                </ul>
+            </section>
+        </div>
+
+    <!-- Main Section -->
+    <section>
+
+            <h2 class="quote">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores illum, tempore vero ut incidunt dolore.</h2>
+
+            <a href="people">
+                <img src="img/people.jpg" alt="">
+            </a>
+
+            <a href="#street">
+                <img src="img/street.jpg" alt="">   
+            </a>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+
+        <div>
+
+            <a href="https://www.instagram.com/urbani_captures/" target="blanck">
+                <i><i class="fa fa-instagram" aria-hidden="true"></i></i>
+            </a>
+
+            <a href="#mail">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+            </a>
+
+        </div>
+
+    </footer>
+
+ <!-- SCRIPTS -->
+ <script>
+    $(document).ready(function(){
+      $('.slider1').bxSlider({
+        mode: 'fade',
+      });
+      $('.slider2').bxSlider({
+        mode: 'fade',
+      });
+      $('.slider3').bxSlider({
+        mode: 'fade',
+      });
+    });
+  </script>
+ 
+</body>
+</html>
