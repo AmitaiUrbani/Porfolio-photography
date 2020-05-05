@@ -20,78 +20,93 @@
 <!-- Body Element Starts -->
 <body>
 
-    <header>
-        
-        <!-- Top part -->
-        <div>
+    <div id="wrapper">
 
-            <div class="logo">
-                <a href="index.html">
-                    <img src="img/logo.png" alt="">
-                </a>
-            </div>
+        <header>
             
-            <!-- Navigation Bar -->
-            <nav>
-    
-                <ul>
-                    <li>  
-                        <a href="#Portfolio" target="_blanck"
-                        >Portfolio
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#Contact" target="_blanck">
-                            Contact
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#About" target="_blanck">
-                            About
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/urbani_captures/" target="_blanck">
-                            Instagram
-                        </a>
-                    </li>
-                </ul>
-            </nav>
+     <!-- Top part -->
+
+            <div class="banner">
+
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/logoblanco.png" alt="">
+                    </a>
+                </div>
+                
+                <!-- Navigation Bar -->
+                <nav>
         
-        </div>
+                    <ul id="navegacion">
+                        <li>  
+                            <a href="#Portfolio" target="_blanck"
+                            >Portfolio
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#Contact" target="_blanck">
+                                Contact
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#About" target="_blanck">
+                                About
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/urbani_captures/" target="_blanck">
+                                Instagram
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            
+            </div>
+
+            
+            <!-- icon example
+                    <i class="fa fa-quora" aria-hidden="true"></i>
+            -->
+            
+        </header>
 
         
-        <!-- icon example
-                <i class="fa fa-quora" aria-hidden="true"></i>
-        -->
-
-           
-    </header>
-
-    <!-- Slider -->
+        <!-- Slider -->
         <div id="slide-wrap">
             <section class="slider">
                 <ul class="slider1">
-                    <li><img src="img/slider/slide1.jpg" alt=""></li>
-                    <li><img src="img/slider/slide2.jpg" alt=""></li>
-                    <li><img src="img/slider/slide3.jpg" alt=""></li>
+                    <li><img src="img/slider/slider1.jpg" alt=""></li>
+                    <li><img src="img/slider/slider2.jpg" alt=""></li>
+                    <li><img src="img/slider/slider3.jpg" alt=""></li>
                 </ul>
             </section>
         </div>
 
+
+    </div>    
+
     <!-- Main Section -->
     <section>
 
-            <h2 class="quote">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores illum, tempore vero ut incidunt dolore.</h2>
+            <div class="frase">
+                <h2 class="quote">“When words become unclear, I shall focus with photographs. When images become inadequate, I shall be content with silence.”
+                    — Ansel Adams</h2>
+            </div>
 
-            <a href="people">
-                <img src="img/people1.jpg" alt="">
-            </a>
+                <div class="container" >
+                    <img class="image" src="img/people1.jpg" alt="">
+                    <div class="middle">
+                        <div class="text">People</div>
+                    </div>
+                </div>
 
-            <a href="#street">
-                <img src="img/street1.jpg" alt="">   
-            </a>
-
+                <div class="container">
+                    <img class="image" src="img/street1.jpg" alt="">  
+                    <div class="middle">
+                        <div class="text">Street</div>
+                    </div>
+                </div>
+                 
     </section>
 
     <!-- Footer -->
